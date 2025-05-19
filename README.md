@@ -8,7 +8,9 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 * /codes/ - Contains all python source codes files.
 # Python scripts  
 ### simulate_kinetics.py  
-Simulates
-### simulate_kinetics_salt.py
-### analyze_kinetics.py
+Simulates the time evolution of monomers, droplets, oligomers, and fibrils concentration. Saves the fibril mass and the corresponding time in .npy files.
+### simulate_kinetics_salt.py  
+Simulates the time evolution of monomers, droplets, oligomers, and fibril concentration under varying salt concentrations.
+### analyze_kinetics.py  
+Plots half-time, lag-time, fibril aggregation rate, and time evolution of fibril mass fraction as a function of concentration.
 
