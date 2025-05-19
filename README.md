@@ -17,11 +17,15 @@ This directory contains all figures associated with the main text and supplement
 * FFF_FigX.pdf → corresponds to Figure X in the main text.
 * FFF_FigSX.pdf → corresponds to Figure SX in  the SI.
 * TOC.pdf → corresponds to Table of Content figure.
-# Python script directory 
+* 
+# Python script directory  
+### simulate_kinetics_0.py  
+Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a given single total protein concentration.  
+Print out the concentration of monomers, droplet mass, oligomer mass and fibril mass. Saves the time evolution of fibril mass in .npy files.
 ### simulate_kinetics.py  
-Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration. Saves the fibril mass and the corresponding time in .npy files.
+Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a set of discrete point protein concentration. Saves the time evolution of fibril mass in .npy files.
 ### simulate_kinetics_salt.py  
-Simulates and plots the time evolution of monomers, droplets, oligomers, and fibril concentration under varying salt concentrations.  
+Simulates and plots the time evolution of monomers, droplets, oligomers, and fibril concentration for a given set of protein concentration points under varying salt concentrations.  
 ### analyze_kinetics.py  
 Plots half-time, lag-time, fibril aggregation rate, and time evolution of fibril mass fraction as a function of concentration.
 
