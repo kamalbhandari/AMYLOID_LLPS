@@ -20,8 +20,7 @@ This directory contains all figures associated with the main text and supplement
 * 
 # Python script directory  
 ### simulate_kinetics_0.py  
-Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a given single total protein concentration.  
-Print out the concentration of monomers, droplet mass, oligomer mass and fibril mass. Saves the time evolution of fibril mass in .npy files.
+Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a given single total protein concentration. Print out the concentration of monomers, droplet mass, oligomer mass and fibril mass. Saves the time evolution of fibril mass in .npy files.
 ### simulate_kinetics.py  
 Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a set of discrete point protein concentration. Saves the time evolution of fibril mass in .npy files.
 ### simulate_kinetics_salt.py  
