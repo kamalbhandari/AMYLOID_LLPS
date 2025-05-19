@@ -17,7 +17,6 @@ This directory contains all figures associated with the main text and supplement
 * FFF_FigX.pdf → corresponds to Figure X in the main text.
 * FFF_FigSX.pdf → corresponds to Figure SX in  the SI.
 * TOC.pdf → corresponds to Table of Content figure.
-* 
 # Python script directory  
 ### simulate_kinetics_0.py  
 Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a given single total protein concentration. Print out the concentration of monomers, droplet mass, oligomer mass and fibril mass. Saves the time evolution of fibril mass in .npy files.
