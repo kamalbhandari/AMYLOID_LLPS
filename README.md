@@ -7,6 +7,9 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 * /figures/ - contains the final complied PDF with all figures.
 * /codes/ - Contains all python source codes files.
 # Python scripts  
+* Simulate_kinetics.py
+* Simulate_kinetics_salt.py
+* Analyze_kinetics.py
 
 
 # 2. Depository
