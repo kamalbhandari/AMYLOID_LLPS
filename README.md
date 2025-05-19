@@ -5,8 +5,8 @@ In this project, we develop an integrated thermodynamics-kinetics model that inc
 # Repository overview
 This repository contains python scripts for modeling the kinetics of amyloid aggregation. All simulation results are saved for reproducibilty, and final figures are consolidated into a single pdf for convenience.
 # Repository structure  
-* /data/ - Contains all .npy files used to produce all plots.
-* /figures/ - contains the final complied PDF with all figures.
+* /data/ - Contains all .npy files used to produce plots.
+* /figures/ - Contains all figures in pdf.
 * /codes/ - Contains all python source codes files.
 # Python scripts  
 ### simulate_kinetics.py  
