@@ -7,9 +7,12 @@ In this project, we develop an integrated thermodynamics-kinetics model that inc
 This repository contains python scripts for modeling the kinetics of amyloid aggregation. All simulation results are saved for reproducibilty, and final figures are consolidated into a single pdf for convenience.
 
 # Repository structure  
-* /data/ - Contains all .npy files used to produce plots.
-* /figures/ - Contains all figures in pdf.
-* /codes/ - Contains all python source codes files.
+* /Data/ - Contains all .npy files used to produce plots.
+* /Figure/ - Contains all figures in pdf.
+* /Python script/ - Contains all python source codes files.
+# Data directory  
+# Figure directory  
+# Python script directory
 # Python scripts  
 ### simulate_kinetics.py  
 Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration. Saves the fibril mass and the corresponding time in .npy files.
