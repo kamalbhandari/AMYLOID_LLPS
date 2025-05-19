@@ -16,6 +16,7 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 This directory contains all figures associated with the main text and supplementary information (SI). Figures follow the naming convention:  
 * FFF_FigX.pdf → corresponds to Figure X in the main text.
 * FFF_FigSX.pdf → corresponds to Figure SX in  the SI.
+* TOC.pdf → corresponds to Table of Content figure.
 # Python script directory 
 ### simulate_kinetics.py  
 Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration. Saves the fibril mass and the corresponding time in .npy files.
