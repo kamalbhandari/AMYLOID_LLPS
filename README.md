@@ -13,18 +13,18 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 # Data directory  
 This folder contains .npy files generated from our python simulations. Each file stores the time evolution of fibril mass for a range of initial protein discrete point concentration (typically between 0.6µM to 500µM). Below is a summary of the naming conventions used for each file, along with the simulation condition it represents.
 ## File naming and description  
-1. default_LLPS.npy →  Simulation using the defaults parameter listed in Table 1 ( main text), including LLPS effects.
-2. default_LLPS_24.npy →  Simulation using the defaults parameter listed in Table 1 ( main text), including LLPS effects.
-3. default_LLPS_salt.npy →  Simulation using the defaults parameter listed in Table 1 ( main text), including LLPS effects.
+1. default_LLPS.npy →  Simulation using the defaults parameter listed in Table 1 ( main text), including LLPS effects (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM, 500µM)
+2. default_LLPS_24.npy →  Same as 1, but at concentrations: 0.02µM, 0.05µM, 0.08µM, 0.1µM, 0.3µM, 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
+3. default_LLPS_salt.npy →  Same as 1, but at concentrations: 0.1µM, 0.2µM, 0.3µM, 0.4µM, 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
 4. default_woLLPS.npy → Same as 1, but without droplet phase (LLPS) included.
-5. nd8.npy, nd10.npy, nd15.npy → Simulations with different droplet nucleation size n<sub>d</sub> = 8, 10 and 12 respectively.
-6. binodal20.npy, binodal40.npy, binodal80.npy → Simulations with varying binodal concentration φ<sub>BN</sub> = 20µM, 40µM and 80µM respectively.
-7. nf3.npy, nf5.npy → Simulations with different fibril nucleation size n<sub>f</sub> = 3 and 5 respectively.
-8. woLLPS_nf3.npy, woLLPS_nf5.npy → Same as 5, but without droplet phase (LLPS) included.
-9. crowder.npy →  Simulation including the presence of molecular crowders.
-10. sequester.npy → Simulation including sequestering agents.
-11. cocondensate0.1.npy, cocondensate1.npy, cocondensate10.npy → Simulations with co-condenates in droplets, with the coefficient σ = 0.1, 1 and 10 repectively.
-12. salt0.25.npy, salt0.5.npy, salt0.75.npy, salt1.npy → Simulations including salt concentration of 0.25M, 0.5M,0.75M, and 1M repectively.
+5. nd8.npy, nd10.npy, nd12.npy → Simulations with different droplet nucleation size n<sub>d</sub> = 8, 10 and 12 respectively. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
+6. binodal20.npy, binodal40.npy, binodal80.npy → Simulations with varying binodal concentration φ<sub>BN</sub> = 20µM, 40µM and 80µM respectively. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
+7. nf3.npy, nf5.npy → Simulations with different fibril nucleation size n<sub>f</sub> = 3 and 5 respectively. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
+8. woLLPS_nf3.npy, woLLPS_nf5.npy → Same as 5, but without droplet phase (LLPS) included. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
+9. crowder.npy →  Simulation including the presence of molecular crowders. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM, 500µM)
+10. sequester.npy → Simulation including sequestering agents. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM, 500µM)
+11. cocondensate0.1.npy, cocondensate1.npy, cocondensate10.npy → Simulations with co-condenates in droplets, with the coefficient σ = 0.1, 1 and 10 repectively. (at concentrations: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM, 500µM)
+12. salt0.25.npy, salt0.5.npy, salt0.75.npy, salt1.npy → Simulations including salt concentration of 0.25M, 0.5M,0.75M, and 1M repectively. (at concentrations: 0.1µM, 0.2µM, 0.3µM, 0.4µM, 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM)
 13. sigma0.1.npy, sigma10.npy →  Simulations with varying the coefficient σ = 0.1 and 10 respectively.
 14. Cad3.npy, Cad1_3.npy → Simulations with different value of coefficient Ca/d = 3 and 1/3 respectively.
 15. Ca3.npy, Ca13.npy → Simulations with varying values of Ca = 3 and 1/3 respectively.
