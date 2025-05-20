@@ -13,7 +13,7 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 # Data directory  
 This folder contains .npy files generated from our python simulations. Each file stores the time evolution of fibril mass for a range of initial protein discrete point concentration (typically between 0.6µM to 500µM). Below is a summary of the naming conventions used for each file, along with the simulation condition it represents.
 ## File naming and description  
-1) default_LLPS.npy represents the simulation obtained from the defaults parameter listed in the main text Table 1.
+### 1. **default_LLPS.npy** →  Simulation using the defaults parameter listed in Table 1 ( main text), including LLPS effects.
 2) default_w/oLLPS.npy represents the simulation obtained from the default parameter listed in the main text Table 1 but not considering droplet phase.
 3) nd8.npy, nd10.npy, and nd15.npy represent the simulation obtained from default parameter but varying only critical droplet size n<sub>d</sub>.
 4) binodal20.npy, binodal40.npy, binodal80.npy represent the simulation obtained by varying binodal concentration φ<sub>BN</sub>.
