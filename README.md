@@ -8,7 +8,6 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 
 # Repository structure  
 * /Data/ - Contains all .npy files used to produce plots.
-* /Figure/ - Contains all figures in pdf.
 * /Python script/ - Contains all python source codes files.
 # Data directory  
 This folder contains .npy files generated from our python simulations. Each file stores the time evolution of fibril mass at multiple discrete point concentrations (typically between 0.6µM to 500µM). These datasets support the figures presented in the main text and supplementary information. These data are available at Zenodo: https://doi.org/10.5281/zenodo.15482549. 
@@ -41,12 +40,7 @@ The following standard concentration sets are used throughout:
 18. ddGminus4.6.npy, ddGplus4.6.npy →  ΔΔG= ΔG<sub>HD</sub> - ΔG<sub>LD</sub> = -4.6KT and +4.6KT respectively (Set B).
 19. ddG0dGminus2.npy, ddG0dGminus2.npy → Equal variation of both ΔG<sub>HD</sub> = ΔG<sub>LD</sub> = -2 KT or + 2KT respectively (Set B).
 20. woLLPS_dgldminus2.npy, woLLPS_dgldplus2.npy → Same as 19 but without droplet phase included (Set B).
-    
-# Figure directory
-This directory contains all figures associated with the main text and supplementary information (SI). Figures follow the naming convention:  
-* FFF_FigX.pdf → corresponds to Figure X in the main text.
-* FFF_FigSX.pdf → corresponds to Figure SX in  the SI.
-* TOC.pdf → corresponds to Table of Content figure.
+21. 
 # Python script directory  
 ### simulate_kinetics_0.py  
 Simulates and plots the time evolution of monomers, droplets, oligomers, and fibrils concentration for a given single total protein concentration. Print out the concentration of monomers, droplet mass, oligomer mass and fibril mass. Saves the time evolution of fibril mass in .npy files.
