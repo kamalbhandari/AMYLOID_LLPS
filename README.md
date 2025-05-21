@@ -55,5 +55,4 @@ Simulates and plots the time evolution of monomers, droplets, oligomers, and fib
 ### simulate_kinetics_salt.py  
 Simulates and plots the time evolution of monomers, droplets, oligomers, and fibril concentration for a given set of protein concentration points under varying salt concentrations. Saves the time evolution of fibril mass in .npy files.
 ### analyze_kinetics.py  
-Plots half-time, lag-time, fibril aggregation rate, and time evolution of fibril mass fraction as a function of concentration.
-
+Plots half-time, lag-time, fibril aggregation rate, and time evolution of fibril mass fraction as a function of concentration. It supports .npy data files representing fibril mass over time across various concentrations. Users may: either use the precomputed data provided on Zenodo or generate new datasets using simulate_kinetics.py and then analyze them with this script.
