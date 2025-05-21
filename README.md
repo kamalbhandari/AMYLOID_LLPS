@@ -11,7 +11,7 @@ This repository contains python scripts for modeling the kinetics of amyloid agg
 * /Figure/ - Contains all figures in pdf.
 * /Python script/ - Contains all python source codes files.
 # Data directory  
-This folder contains .npy files generated from our python simulations. Each file stores the time evolution of fibril mass at multiple discrete point concentrations (typically between 0.6µM to 500µM). These datasets support the figures presented in the main text and supplementary information.
+This folder contains .npy files generated from our python simulations. Each file stores the time evolution of fibril mass at multiple discrete point concentrations (typically between 0.6µM to 500µM). These datasets support the figures presented in the main text and supplementary information. These data are available at Zenodo: https://doi.org/10.5281/zenodo.15482549. 
 ## Concentration Ranges  
 The following standard concentration sets are used throughout:
 * Set A: 0.6µM, 0.8µM, 1µM, 2µM, 4µM, 8µM, 10µM, 20µM, 31µM, 40µM, 50µM, 60µM, 70µM, 80µM, 90µM, 100µM, 200µM, 300µM, 400µM, 500µM
